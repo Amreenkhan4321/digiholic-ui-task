@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: black 2px solid; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.pos {
+  position: sticky;
+  top: 0px;
+  background-color: whitesmoke;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.signup-btn {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  font-weight: 600;
+  box-shadow: inset 0 0 0 1px #fff;
+  transition: 0.9s;
+  letter-spacing: 1px;
+  border: double;
+}
+
+.login-btn {
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  font-weight: 600;
+  box-shadow: inset 0 0 0 1px #fff;
+  transition: 0.9s;
+  letter-spacing: 1px;
+  border: double;
+}
+
+.header-btn {
+  background: #c10930;
+  border-bottom: 4px solid #6d081d;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn-main {
+  margin-right: 10px;
+}
+
+.second-nav {
+  background-color: #e9eff8;
+}
+
+.second-nav-btn {
+  border: 1px solid #c10930;
+  color: #c10930;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin: 3px 1px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  font-weight: 600;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.cricket-div {
+  background-color: #c10930;
+  text-transform: uppercase;
+
+  padding: 7px 12px;
+  color: #fff;
+  display: inline-flex;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  border-radius: 0px 0px 50px 0px;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.left-section {
+  /* border: 1px solid rgb(237, 54, 85); */
+  width: 50%;
+}
+.right-section {
+  /* border: 1px solid rgb(244, 9, 9); */
+  width: 50%;
+}
+
+.left-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #dcedff;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100px;
+}
+
+.bm {
+  background-color: #c10930;
+
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  height: 20px;
+  /* vertical-align: super; */
+  color: #fff;
+  line-height: 20px;
+  font-size: 9px;
+  font-weight: 700;
+  margin-left: 3px;
+}
+
+.live-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.grid-container {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-rows: repeat(); */
+  grid-gap: 1px;
+}
+
+.grid-item {
+  /* width: 150px; */
+  height: 100px;
+  background-color: #66d1ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid-item:nth-child(even) {
+  background-color: #ffb4c5;
+}
+
+.greed-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  line-height: 25px;
+}
+
+.grid-item .greed-text span {
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.show-live {
+  margin-right: 15px;
+  height: 35px;
+  width: 50px;
+  line-height: 15px;
+  font-size: 18px;
+  color: #03b37f;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 4px solid #03b37f;
+}
+
+.show-date {
+  background-color: #e9eff8;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+.text-section h5 {
+  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 280px;
+  width: 280px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.text-section p {
+  font-size: 14px;
+  color: #838383;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.grid-container-photos {
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.grid-item-photo {
+  background-size: cover;
+  width: 50px;
+}
